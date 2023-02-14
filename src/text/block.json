@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "plugin-block/plugin-text",
+	"version": "1.0",
+	"title": "Plugin Block",
+	"icon": "smiley",
+	"category": "text",
+	"keywords": [ "Text", "Gutenberg" ],
+	"description": "Description...",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "plugin-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
